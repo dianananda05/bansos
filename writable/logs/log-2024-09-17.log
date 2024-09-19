@@ -1,0 +1,13 @@
+CRITICAL - 2024-09-17 07:18:17 --> Error: Class "App\Models\BansosModel" not found
+[Method: POST, Route: bansos/submit]
+in APPPATH/Controllers/BansosController.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\BansosController->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BansosController))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Applications/XAMPP/xamppfiles/htdocs/bansos/public/index.php')
+ERROR - 2024-09-17 08:01:19 --> Validasi gagal: {"foto_ktp":"File yang diunggah harus berupa gambar.","umur":"Umur harus 25 tahun atau lebih.","kab_kota":"Kabupaten\/Kota harus diisi.","kelurahan_desa":"Kelurahan\/Desa harus diisi.","penghasilan_sebelum_pandemi":"Penghasilan sebelum pandemi harus diisi.","penghasilan_setelah_pandemi":"Penghasilan setelah pandemi harus diisi.","alasan_bantuan":"Alasan membutuhkan bantuan harus diisi."}
+ERROR - 2024-09-17 08:02:50 --> Validasi gagal: {"foto_ktp":"File yang diunggah harus berupa gambar.","umur":"Umur harus 25 tahun atau lebih.","kab_kota":"Kabupaten\/Kota harus diisi.","kelurahan_desa":"Kelurahan\/Desa harus diisi.","penghasilan_sebelum_pandemi":"Penghasilan sebelum pandemi harus diisi.","penghasilan_setelah_pandemi":"Penghasilan setelah pandemi harus diisi.","alasan_bantuan":"Alasan membutuhkan bantuan harus diisi."}
+ERROR - 2024-09-17 08:05:13 --> Validasi gagal: {"foto_ktp":"File yang diunggah harus berupa gambar.","kab_kota":"Kabupaten\/Kota harus diisi.","kelurahan_desa":"Kelurahan\/Desa harus diisi.","penghasilan_sebelum_pandemi":"Penghasilan sebelum pandemi harus diisi.","penghasilan_setelah_pandemi":"Penghasilan setelah pandemi harus diisi.","alasan_bantuan":"Alasan membutuhkan bantuan harus diisi."}
